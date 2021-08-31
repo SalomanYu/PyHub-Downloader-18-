@@ -1,0 +1,52 @@
+QWidget {
+    color:rgb(255, 153, 0);
+    background-color: rgb(34, 30, 30);
+}
+
+QLineEdit {
+    border: 2px solid rgb(72, 72, 72);
+    border-radius:3px;
+    background-color: white;
+    color:black;
+    font-size: 13px;
+}
+
+QFrame {
+    background-color: rgb(63,63,63);
+}
+
+QPushButton {
+    border: 1px solid;
+    border-radius:3px;
+    outline:none;
+    background-color:rgb(255, 153, 0);
+    color:black
+}
+
+QPushButton:hover {
+    border-radius: 15px;
+}
+
+QLabel {
+    color:rgb(255, 153, 0);
+    font-size:15px;
+    background-color:rgb(34, 30, 30);
+    
+}
+
+#logo {
+    background-color: none;
+}
+
+QMessageBox, QMessageBox QLabel{
+    background-color: rgb(63,63,63);
+    color:rgb(255, 153, 0)
+}
+
+
+QComboBox {
+    background-color:rgb(255, 153, 0);
+    border: solid;
+    border-radius:3px;
+    color:rgb(34, 30, 30);;
+}
